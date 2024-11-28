@@ -12,12 +12,6 @@
     "rewrites": [{
         "source": "/(.*)",
         "destination": "index.js"
-    }, {
-        "src": "/",
-        "dest": "public"
-    }, {
-        "src": "/(.*)",
-        "dest": "public/$1"
     }]
 
 }
