@@ -11,7 +11,7 @@ app.use(express.json())
 
 
 // Enable cors
-//app.use(cors())
+app.use(cors())
 
 app.use('/radical', require('./routes/mydb'))
 
